@@ -17,7 +17,7 @@ Due to the inclusion of the config file, be sure to use a powershell V2
 
 Remark
 ------
-If you try to use my script, adapt the TWEDConfig.ps1 file to your needs
+If you try to use my script, adapt the TWEDConfig.ps1 file to your needs.
 The program is only a documenter so you can set a read-only user in the config file
 
 The script will automatically create a report subdirectory where he put his final report
@@ -25,8 +25,8 @@ The script will automatically create a report subdirectory where he put his fina
 And for the rest, you and you only are responsible of the usage of this program in a production infrastructure.
 But in my case i use it every day to create a snapview of my environment
 
-In my case for 11 Esx server, 3 cluster , and 260 VM the script run during aproximately 1hour
-If you don't want wait , you can set the $vmlimit counter in the config file
+2 vcenter, 3 datacenter, 5 cluster , 27 Esx server and 380 VM take less than 1 hour on a modern server
+If you don't want wait (to test thes software), you can set the $vmlimit counter in the config file
 
 If you have more than one environment, you can use the program with multiple configfile give the configFilename as parameter
 
